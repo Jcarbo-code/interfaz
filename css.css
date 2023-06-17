@@ -10,13 +10,18 @@ header {
   padding: 10px;
 }
 
-nav{
+nav {
   text-align: center;
 }
 
-nav img{
-  width: 60px;
-  height: 60px;
+.logo {
+  width: 100px;
+  height: 80px;
+}
+
+.icon_usser {
+  width: 50px;
+  height: 50px;
 }
 
 nav ul,
@@ -40,15 +45,41 @@ nav ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
-.donation-form,
-.form {
+.conteiner {
+  display: flex;
+}
+
+.ult_adopcion {
+  margin: 2%;
+  flex: 1;
+  width: 50%;
+  align-items: center;
+}
+
+.adopte {
+  margin: 2%;
+  flex: 1;
+  width: 50%;
+  align-items: center;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+}
+
+.donation-form {
   margin: 10px;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
+}
+
+.form_login,
+.form_registro {
+  text-align: center;
 }
 
 h2,
@@ -84,4 +115,12 @@ button {
 .images img {
   display: block;
   margin-bottom: 10px;
+}
+
+.subtit_nos {
+  margin-top: 5%;
+}
+
+.introduccion {
+  text-align: center;
 }
